@@ -22,8 +22,8 @@ import multi.android.meterial_design_pro.R;
 
 public class ViewPagerExam01 extends AppCompatActivity {
     ViewFragment1 viewFragment1;
-    ViewFragment3 viewFragment3;
     ListTestFragment viewFragment2;
+    ViewFragment3 viewFragment3;
     ViewPager fragment_viewPager;
     ArrayList<Fragment> fragmentArrayList = new ArrayList<Fragment>();
     ArrayList<String> tabArrayList = new ArrayList<String>();
