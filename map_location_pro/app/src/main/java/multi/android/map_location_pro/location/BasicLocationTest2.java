@@ -175,7 +175,7 @@ public class BasicLocationTest2 extends AppCompatActivity
         result.append("시간:"+simpleDateFormat.format(date)+"\n");
     }
 
-    //모듈이 변결될 때
+    //모듈이 변경될 때
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
