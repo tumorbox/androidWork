@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        clientInfo = findViewById(R.id.testInfo);
+        clientInfo = findViewById(R.id.clientInfo);
     }
     public void btn_connect(View v){
         new networkClient().start();
